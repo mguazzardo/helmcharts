@@ -1,0 +1,49 @@
+    1  apt-get update
+    2  halt
+    3  git clone https://github.com/pablokbs/helmcharts
+    4  ls
+    5  cd helmcharts/
+    6  ssh-keygen -t rsa
+    7  pwd
+    8  cd ..
+    9  ls
+   10  cat .ssh/id_rsa.pub 
+   11  cd helmcharts/
+   12  ls
+   13  git add .
+   14  git commit -m 'prueba0
+   15  git commit -m 'prueba0'
+   16  git config --global user.email "mguazzardo76@gmail.com"
+   17  git config --global user.name  "Marcelo Guazzardo"
+   18  git push
+   19  ls
+   20  cd ..
+   21  ls
+   22  rm -fr helmcharts/
+   23  git clone git@github.com:mguazzardo/helmcharts.git
+   24  ls
+   25  cd helmcharts/
+   26  ls
+   27  vim README.md 
+   28  git add .
+   29  git commit -m '1'
+   30  git push
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd helmcharts/
+   35  ls -la
+   36  cd .git/
+   37  ls
+   38  grep mguazzardo * -ri
+   39  ls
+   40  cd ..
+   41  git push
+   42  helm repo add qqkbs https://mguazzardo.github.io/helm02/
+   43  ls
+   44  helm repo add mguazzardo https://mguazzardo.github.io/helm02/
+   45  helm repo add mguazzardo https://mguazzardo.github.io/helmcharts
+   46  helm search repo pelado
+   47  helm install prueba mguazzardo/peladochart
+   48  kubectl get po
+   49  history > salida.txt
